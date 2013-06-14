@@ -1,14 +1,5 @@
 <% unless user_signed_in? %>
 	<div class="center hero-unit">
-		<h1>Look Ma! I'm OK</h1>
-
-		<p>You found my app created to share photos of my daily life with family members and close friends.
-		</p>
-		<p>
-		* and I guess any stalkers since it's viewable by anyone ;)
-		</p>
-
-		<p> <%= link_to "Sign Up Now!", new_user_registration_path , class: "btn btn-primary btn-large" %> 
-		</p>
+		<p> <%= link_to "Sign Up Now!", new_user_registration_path , class: "btn btn-primary btn-large" %> </p>
 	</div>
 <% end %>
