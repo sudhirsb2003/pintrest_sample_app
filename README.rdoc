@@ -1,0 +1,6 @@
+Look Ma! is a Rails app I created to share photos of my daily life with family members and close friends.
+
+* and I guess any stalkers since it's viewable by anyone ;)
+
+You can view at http://lookma.herokuapp.com
+
