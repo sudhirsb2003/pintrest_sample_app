@@ -1,4 +1,7 @@
 Pintrest::Application.routes.draw do
+  resources :comments
+
+
   get "users/show"
   resources :pins
   devise_for :users

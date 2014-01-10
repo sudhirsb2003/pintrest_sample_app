@@ -1,0 +1,10 @@
+<%= simple_form_for(@comment) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :pin_id, :as => :hidden, :input_html => { :value => 1 }  %>
+    <%= f.input :user_id, :as => :hidden, :input_html => { :value => current_user.id } %>
+    <%= f.input :comment_body,:input_html => {:rows => 2, :placeholder => "Enter some comment.", :class => "textarea"}, :label => false%>
+  </div>
+
+<% end %>

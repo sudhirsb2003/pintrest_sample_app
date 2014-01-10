@@ -7,10 +7,10 @@ gem 'rails', '3.2.12'
 
 group :production do
   gem 'pg'
-end	
+end
 
 group :development, :test do
-	gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 # Gems used only for assets and not required
@@ -22,6 +22,10 @@ group :assets do
   gem 'bootstrap-sass', '~> 2.2.2.0'
 end
 
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+gem 'capistrano', '~> 2.15.4'
+gem 'rvm-capistrano'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
@@ -30,3 +34,4 @@ gem 'aws-sdk'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
+gem 'unicorn'
